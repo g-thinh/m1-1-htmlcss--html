@@ -5,7 +5,7 @@ The following commands will be useful:
 - `ls` - show all files and directories in the current directory
 - `cd [directory]` - Enter the specified directory (same thing as double-clicking a folder in Finder/Explorer)
   - `cd ..` will go up one level
-- `pwd` - prints your current location in the filesystem
+P- `pwd` - prints your current location in the filesystem
 - `mkdir [name]` - create a new directory with the specified name
 
 (These commands work cross-platform if using `git-bash` on windows. Power shell users might have slightly different commands)
@@ -102,3 +102,7 @@ Click the "Fork" button on any Github repository (when logged in) to create your
 ![Fork](./assets/fork.png)
 
 After the fork is complete, you'll be able to `clone` your new repo onto your local machine. Because you've cloned _your fork_, and not the original, you're free to push whatever changes you wish to Github.
+
+## Copy and Pasting into the Terminal
+
+On Git Bash, ctrl + v is shift+insert and control + insert for ctrl + c
